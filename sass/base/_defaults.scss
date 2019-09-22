@@ -1,0 +1,16 @@
+body {
+  background-color: $color-black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  position: relative; // z-index: -1;
+}
+
+.body-home {
+  background-color: none;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: top;
+  position: absolute;
+}

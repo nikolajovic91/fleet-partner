@@ -1,0 +1,74 @@
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 60%;
+  text-shadow: 2px 2px 15px $color-black;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.h2-news {
+  font-weight: 400;
+  font-size: 30px
+}
+
+h6 {
+  text-decoration: none;
+  text-align: center;
+  color: $color-white;
+  padding: 20px 0;
+  text-transform: uppercase
+
+}
+
+.line-news {
+  height: 32px;
+  margin-right: 40px;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+@media (max-width: 1320px) {
+  .line-news {
+    height: 32px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 968px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+
+@media (min-width: 1500px) {
+  h1 {
+    font-size: 100px;
+  }
+}

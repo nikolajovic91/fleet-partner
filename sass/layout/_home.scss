@@ -1,0 +1,29 @@
+.about-back {
+  background-image: url(../resources/backgrounds/aboutUs.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.products-back {
+  background-image: url(../resources/backgrounds/products.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.home-back {
+  background-image: none;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+// .page-back {
+//   background-color: $color-black;
+//   height: auto;
+//   background-size: cover;
+//   background-attachment: fixed;
+//   background-position: top;
+//   position: relative;
+// }

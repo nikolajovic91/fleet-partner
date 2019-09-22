@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/style.css"
+    />
+
+    <title>FleetPartner</title>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <div class="index">
+        <a onclick="openNav()">&#9776;</a>
+        <a class="nav-logo" href="#">
+          <img src="./resources/logo.png" alt="Logo" style="height:40px" />
+        </a>
+      </div>
+
+      <div>
+        <div class="icons">
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            lang
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#" onclick="getLanguage('bi5c6')">en</a>
+            <a href="#" onclick="getLanguage('15byqu')">sr</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="navBar" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="./index.html" class="active" data-localized="home">Home</a>
+        <a href="./pages/about.html" data-localized="about">About us</a>
+        <a href="./pages/products.html" data-localized="products">Products</a>
+        <a href="./pages/contact.html" data-localized="contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <div>
+        <div class="slides fade">
+          <img
+            src="./resources/slides/fullServiceSolution.png"
+            class="slides-img"
+          />
+          <div class="text">
+            <h1 class="" data-localized="slide1">Full service solution</h1>
+            <button
+              class="btn button btn-read-more"
+              onclick="window.location.href='./pages/about/what-we-do.html'"
+            >
+              <img src="./resources/icons/button.png" style="height: 14px;" />
+              <span data-localized="btnHome"> Read more</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="slides fade">
+          <img
+            src="./resources/slides/1.png"
+            data-localized="btnHome"
+            class="slides-img"
+          />
+          <div class="text">
+            <h1 class="" data-localized="slide2">Long-term rental</h1>
+            <button
+              class="btn button btn-read-more"
+              onclick="window.location.href='./pages/products/long-term-rental.html'"
+            >
+              <img src="./resources/icons/button.png" style="height: 14px;" />
+              <span data-localized="btnHome"> Read more</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="slides fade">
+          <img
+            src="./resources/slides/tailorMadeSolution.png"
+            class="slides-img"
+          />
+          <div class="text">
+            <h1 class="" data-localized="slide3">Tailor made solution</h1>
+            <button
+              class="btn button btn-read-more"
+              onclick="window.location.href='./pages/products/tailor-made-solutions.html'"
+            >
+              <img src="./resources/icons/button.png" style="height: 14px;" />
+              <span data-localized="btnHome"> Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-margin">
+        <div class="news-home">
+          <div>
+            <h2 class="h2-news">
+              <img
+                src="./resources/news.png"
+                alt="Lines"
+                class="line-news"
+                style="height: 28px;"
+              /><span data-localized="newsh">News</span>
+            </h2>
+          </div>
+          <img src="./resources/hands.png" class="news-box-img" alt="News" />
+          <p data-localized="news">
+            Fleet partner became the official representative of
+            <a href="#">Element-Arval Global Alliance</a> on Serbian market.
+          </p>
+          <button
+            class="btn button btn-news"
+            onclick="window.location.href='./pages/news.html'"
+            style="margin-bottom: 30px;"
+          >
+            <img src="./resources/icons/button.png" style="height: 14px;" />
+            <span data-localized="btnHome"> Read more</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <footer class="footer">
+      <div>
+        <a href="#">© 2015 - Fleetpartner</a>
+        <a href="#"> <i class="fas fa-book"></i> Download brochure</a>
+      </div>
+
+      <div>
+        <a href="#">Contact</a>
+        <a href="#">Legal</a>
+        <a href="#">Cookies Policy</a>
+        <a href="#">Credits photo: shutterstock</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

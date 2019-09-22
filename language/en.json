@@ -1,0 +1,112 @@
+{
+  "home": "Home",
+  "about": "About us",
+  "products": "Products",
+  "contact": "Contact",
+
+  "lang": "en",
+
+  "slide1": "Full service solution",
+  "slide2": "Long-term rental",
+  "slide3": "Tailor made solution",
+
+  "newsh": "News",
+  "news": "Fleet partner became the official representative of Element-Arval Global Alliance on Serbian market.",
+
+  "news1": "Fleet partner became the official representative of Element-Arval Global Alliance on Serbian market. We are proud to be the 47th country within the Alliance.",
+  "news2": "Fleet Partner offers fleet management full service solution. Now you can fully focus on your core business and let us take care of your vehicle fleet.",
+  "news3": "Explore our web site and get in touch with us in case you need more information. We will be happy to answer all of your questions.",
+  
+  "btnHome": "Read more",
+  "btnContact": "Send",
+  "btnContact2": "Quote",
+
+  "about1": "What we do?",
+  "about2": "Mission / Vision",
+  "about3": "History",
+  "about4": "Our values",
+  "about5": "About the alliance",
+
+  "whatWeDo1": "Our company is specialized in delivering fleet management full service solution. We base our business on the experience of our team that brings together accomplished experts in different fields with successful track in launching new and developing existing companies in various industries. Fleet management is the management of company's vehicle fleet. It includes vast range of activities related to buying vehicles, registration, insurance, maintenance, and detailed tracking of vehicle exploitation process. This enables companies to fully outsource fleet management and dedicate their resources to the core business. What does outsourcing of fleet management bring You?",
+  "whatWeDo2": "Administrative simplification",
+  "whatWeDo3": "If Fleet Partner takes care of Your fleet, we save Your time and reduce administration costs to minimum.",
+  "whatWeDo4": "Cost control",
+  "whatWeDo5": "Our clients have fixed, predefined expenses of their fleet throughout the entire period of its exploitation.",
+  "whatWeDo6": "This will in many ways simplify Your budget planning. All costs for an individual vehicle will be on one bill. All risks of additional expenses regarding vehicle maintenance are on our company (vehicles must be used in ways predefined in the contract).",
+  "whatWeDo7": "Additional services",
+  "whatWeDo8": "Roadside assistance, VIP services, replacement vehicle if needed, etc. will be provided by our company.",
+  "whatWeDo9": "Focus on core business",
+  "whatWeDo10": "Our clients will be able to focus their resources on their core business and completely outsource fleet management.",
+
+  "mission1": "OUR MISSION",
+  "mission2": "The mission of our company is to offer the market fleet management full service solution and ongoing maintenance, development and improvement of the quality and scope of services, whilst constantly trying to keep partnership approach, and the highest level of satisfaction of our customers.",
+  "mission3": "OUR VISION",
+  "mission4": "The vision of our company is to become the leader in our region when it comes to providing fleet management services, and to be the company that will set standards in this field.",
+  
+  "history1": "Fleet Partner was founded in 2014. as a company that will provide fleet management full service solution.",
+  "history2": "We planned to provide services in all fazes of vehicle life cycle. From vehicle purchasing and maintenance to remarketing solutions.",
+  "history3": "In the first year, our focus was on remarketing. In accordance with our vision to become one of the best companies in this field we are striving to improve the quality of our services. That’s why we became a part of Element-Arval Global Alliance as 47th member in the world.",
+  "history4": "For us, it’s not enough to be the solution, we have to be the best solution!",
+
+
+  "values1": "In order to always improve our products, we focus on innovation and team work.",
+  "values2": "We are always motivated and committed to our clients and strive to provide them with most suitable solutions.",
+  "values3": "We are constantly trying to improve our services. All members of our team are problem solving oriented.",
+  "values4": "Regular feedback on our clients satisfaction increases our need for constant improvements.",
+  "values5": "Thanks to all things mentioned, we strive to delight our clients and make the best possible solutions that fulfill their needs.",
+
+  "alliance1": "Element Arval Global Alliance drives forward businesses of companies all around the globe with the powerful portfolio of fleet services from Element Fleet Management. Always tuned in to their partners' emerging needs, members of the Alliance develop new products and customized solutions to help reduce costs and improve productivity.",
+  "alliance2": "Present in North America, Asia-Pacific and Africa, the Element-Arval Global Alliance gathers the world’s best fleet management organizations and provides clients with the same expert advice and service quality no matter what country the client is located in.",
+  "alliance3": "The Element-Arval Global Alliance operates more than 3.000.0000 vehicles globally.",
+
+  "products1": "Long-term rental",
+  "products2": "Mid-term rental",
+  "products3": "Short-term rental",
+  "products4": "Additional services",
+  "products5": "Tailor made solution",
+
+ 
+  "long1": "Lease for a period above 24 months for a fixed monthly payment. Cars of any type and brand are available. We offer tailor made packs of services to meet customers requirements. Vehicle maintenance, replacement vehicle option, and insurance are a part of this package. We also propose to You some of our additional services.",
+  "long2": "Benefits of long-term rental are:",
+  "long3": "cost control",
+  "long4": "freeing up capital",
+  "long5": "no risk on your side",
+  "long6": "less administration",
+  "long7": "expert advices",
+  "long8": "support 24/7",
+  "long9": "fast and accurate service",
+  "long10": "All our employees are completely dedicated to finding solutions for all our clients' problems, every day. You just determine the type and brand of the vehicle, expected mileage and the length of contract. We will do the rest for You.",
+
+  "mid1": "Lease for a period from 13 to 24 months for a fixed  monthly payment.",
+  "mid2": "If You need new vehicles when starting a new business venture, for some seasonal work or some other temporary projects, mid-term rental is what will suit You best.",
+  "mid3": "It is possible to change Your contract terms in agreement with us, with total flexibility and through a very simple process. This offer combines all of the benefits of long-term and short-term rentals.",
+
+  "short1": "Lease up to 12 months. ",
+  "short2": "If You need quick and reliable solution for a short period of time, we will provide fast response. For all our clients, we offer tailor made solutions.",
+  "short3": "With fleet management everything is possible.",
+
+  "services1": "Damage Control",
+  "services2": "Our company fully takes on the entire process of vehicle damage control: establishing contact with insurance companies; contracting vehicle repairs with service workshops; returning the vehicle to the client. During the repair period we ensure the mobility of the client or vehicle user with the replacement vehicle service. ",
+  "services3": "VIP Services",
+  "services4": "To our VIP clients we offer tailor made solutions. Door to door service which includes picking up and returning the vehicle for the purpose of vehicle maintenance. We are also able to provide all other VIP services on request by prior arrangement.",
+  "services5": "Other Services",
+  "services6": "In addition to the above mentioned services, we are able to offer all clients a variety of additional services: ",
+  "services7": "Equipping vehicles with satellite GPS devices,",
+  "services8": "Vehicle branding,",
+  "services9": "Additional vehicle upgrades.",
+
+  "tailor1": "For all our clients we provide suitable and flexible no risk solutions, financial consulting, all services of regular and additional maintenance, pneumatics management, mandatory and kasko insurance, road assistance and replacement vehicles.",
+  "tailor2": "Steps toward a solution, in a nutshell:",
+  "tailor3": "Current situation analysis and defining client's needs - Fleet Partner, the company specialized for fleet management, offers free consulting to its clients, to enable them the optimization of the cost of their fleets.",
+  "tailor4": "Vehicle purchase - After determining client's needs, using our knowledge and experience, we find the most optimal solutions in order to achieve the best possible ratio between price and quality.",
+  "tailor5": "Financing - Our fleet management full service solution is available for all types and brands of vehicles, regardless of ownership structure, type or size of the fleet.",
+  "tailor6": "Vehicle registration and insurance - Our company fully conducts vehicle registration and insurance processes.",
+  "tailor7": "Delivery process - We completely coordinate the process of vehicle delivery, including the preparation of all necessary legal documents and adequate equipment.",
+  "tailor8": "Vehicle maintenance - We manage all processes concerning vehicle maintenance, whether if it's the question of regular maintenance or additional repairs, and we also take the risk of additional expenses, the cost of which the client has been introduced in advance.",
+
+  "contact1": "Service improvement and clients' satisfaction are Fleet Partner company's priority. Please feel free to contact us with any questions, comments or suggestions you may have! Our email address is office@fleetpartner.rs.",
+  "contact2": "Fleet Partner, Omladinskih brigada 33A, 11070 Beograd, +381 11 4000 700",
+
+  "quote1": "Please feel free to contact us with any questions about the offer or additional information you may need. Leave your contact data and in the field Description shortly note which vehicle type you need, what period of time and the number of vehicle.",
+  "quote2": "*Obligatory field"
+}

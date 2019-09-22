@@ -1,0 +1,33 @@
+.icons {
+  font-size: 20px;
+  display: inline-block;
+  margin: auto;
+  color: #e7e7e7;
+  margin: auto 0;
+  & a {
+    text-decoration: none;
+  }
+}
+
+.icons i {
+  padding: 0 10px;
+  transition: color .3s;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1dcaff;
+}
+
+.fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+@media (max-width: 550px) {
+  .icons {
+    display: none;
+  }
+}

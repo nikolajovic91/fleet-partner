@@ -1,0 +1,163 @@
+.toggleButton {
+  font-size: 70px;
+  cursor: pointer;
+  color: white;
+  padding: 30px;
+  top: 7px;
+  position: relative;
+  background-color: $color-black;
+  padding-top: 15px;
+  border-radius: 0 0 70% 0;
+}
+
+.dropbtn {
+  background-color: $color-black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  height: 60px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: $color-black;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 999;
+}
+
+.dropdown-content a {
+  color: $color-white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: $color-grey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.button {
+  padding: 5px;
+  width: 150px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0;
+  margin: 0; 
+  & img {
+    margin-right: 20px;
+  }
+}
+
+.btn {
+  &-read-more {
+    background-color: $color-black;
+    color: $color-white;
+    &:hover {
+      color: darken($color-white, 40%);
+      box-shadow: 0 0 2px black;
+    }
+  }
+  &-send {
+    background-color: $color-grey;
+    color: $color-white;
+    &:hover {
+      color: $color-black;
+    }
+  }
+  &-quote {
+    background-color: $color-black;
+    color: $color-white;
+    &:hover {
+      color: $color-black;
+      background-color: $color-grey;
+    }
+  }
+  &-news {
+    background-color: rgb(46, 44, 44);
+    color: $color-white;
+    &:hover {
+      background-color: $color-grey;
+    }
+  }
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: $color-grey;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 50px 0;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+ 
+  & img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+.circle-right {
+  height: 60px;
+  width: 60px;
+  background-color: $color-black;
+  border-radius: 50%;
+  display: inline-block;
+  // visibility: hidden;
+  margin-top: 100px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+ 
+  & img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  // &:hover {
+  //   visibility: visible;
+  // }
+}
+
+@media (max-width: 1024px) {
+  .circle-right {
+    margin-bottom: 70px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .circle {
+    margin: 10px 0 70px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn {
+    &-quote {
+      margin-bottom: 20px;
+    }
+  }
+  .dropdown {
+    display: none;
+  }
+}

@@ -1,0 +1,119 @@
+.contact-form {
+  padding-top: 100px;
+  color: $color-white;
+  margin: 0 130px;
+  text-align: justify;
+
+  p {
+    text-align: justify;
+  }
+
+  & a {
+    color: $color-white;
+    text-decoration: none;
+    &:hover {
+      color: #ccc;
+    }
+  }
+  & input[type="text"] {
+    width: 48%;
+    padding: 7px;
+    border: none;
+    color: $color-white;
+    background-color: $color-form;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  & textarea {
+    width: 100%;
+    padding: 7px;
+    color: $color-white;
+    background-color: $color-form;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+}
+
+.contact-quote {
+  padding-top: 100px;
+  height: auto;
+  color: $color-white;
+  margin: 0 200px;
+  text-align: justify;
+  & a {
+    color: $color-white;
+    text-decoration: none;
+    &:hover {
+      color: #ccc;
+    }
+  }
+  & input[type="text"] {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    color: $color-white;
+    background-color: $color-form;
+    box-sizing: border-box;
+    margin-top: 6px; // margin-bottom: 16px;
+  }
+  & textarea {
+    width: 100%;
+    padding: 7px;
+    color: $color-white;
+    background-color: $color-form;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+@media (max-width: 1100px) {
+  .contact-form {
+    margin: 0 70px;
+    text-align: center;
+
+    & input[type="text"] {
+      width: 100%;
+    }
+  }
+  .contact-btn {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 968px) {
+  .contact-quote {
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-quote {
+    margin: 0 50px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .contact-form {
+    padding-top: 150px;
+  }
+}

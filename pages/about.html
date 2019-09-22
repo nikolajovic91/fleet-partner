@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+
+  <title>About Us</title>
+</head>
+
+<body class="about-back">
+
+
+  <div class="topnav">
+    <div class="index">
+      <a onclick="openNav()">&#9776;</a>
+      <a class="nav-logo" href="#">
+        <img src="../resources/logo.png" alt="Logo" style="height:40px">
+      </a>
+    </div>
+
+    <div>
+      <div class="icons">
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">lang
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" onclick="getLanguage('bi5c6')">en</a>
+          <a href="#" onclick="getLanguage('15byqu')">sr</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="navBar" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="../index.html" data-localized="home">Home</a>
+      <a href="./about.html" class="active" data-localized="about">About us</a>
+      <a href="./products.html" data-localized="products">Products</a>
+      <a href="./contact.html" data-localized="contact">Contact</a>
+    </div>
+  </div>
+
+
+  <div class="about-container">
+
+    <a href="../pages/about/what-we-do.html">
+      <div class="img-text">
+        <img src="../resources/images/whatWeDo/819x557.png" alt="">
+        <h6>
+          <img src="../resources/lines--singlePage.png" style="width: 25px;" alt="Lines"> <span data-localized="about1">What We Do</span></h6>
+      </div>
+      <div style="text-align:center">
+        <div class="circle-right" onclick="goBack()">
+          <img src="../resources/icons/arrow--right.png" alt="">
+        </div>
+      </div>
+    </a>
+
+    <a href="../pages/about/mission-vision.html">
+      <div class="img-text">
+        <img src="../resources/images/missionVision/819x557.png" alt="">
+        <h6>
+          <img src="../resources/lines--singlePage.png" style="width: 25px;" alt="Lines"> <span data-localized="about2">Mission / Vision</span></h6>
+      </div>
+      <div style="text-align:center">
+        <div class="circle-right" onclick="goBack()">
+          <img src="../resources/icons/arrow--right.png" alt="">
+        </div>
+      </div>
+    </a>
+
+    <a href="../pages/about/history.html">
+      <div class="img-text">
+        <img src="../resources/images/history/819x557.png" alt="">
+        <h6>
+          <img src="../resources/lines--singlePage.png" style="width: 25px;" alt="Lines"> <span data-localized="about3">History</span></h6>
+      </div>
+      <div style="text-align:center">
+        <div class="circle-right" onclick="goBack()">
+          <img src="../resources/icons/arrow--right.png" alt="">
+        </div>
+      </div>
+    </a>
+
+    <a href="../pages/about/our-values.html">
+      <div class="img-text">
+        <img src="../resources/images/values/819x557.png" alt="">
+        <h6>
+          <img src="../resources/lines--singlePage.png" style="width: 25px;" alt="Lines"> <span data-localized="about4">Our values</span></h6>
+      </div>
+      <div style="text-align:center">
+        <div class="circle-right" onclick="goBack()">
+          <img src="../resources/icons/arrow--right.png" alt="">
+        </div>
+      </div>
+    </a>
+
+    <a href="../pages/about/about-the-alliance.html">
+      <div class="img-text">
+        <img src="../resources/images/alliance/819x557.png" alt="">
+        <h6>
+          <img src="../resources/lines--singlePage.png" style="width: 25px;" alt="Lines"> <span data-localized="about5">About the alliance</span></h6>
+      </div>
+      <div style="text-align:center">
+        <div class="circle-right">
+          <img src="../resources/icons/arrow--right.png" alt="">
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+
+
+
+
+  <footer class="footer">
+    <div>
+      <a href="#">© 2015 - Fleetpartner</a>
+      <a href="#">
+        <i class="fas fa-book"></i> Download brochure</a>
+    </div>
+
+    <div>
+      <a href="#">Contact</a>
+      <a href="#">Legal</a>
+      <a href="#">Cookies Policy</a>
+      <a href="#">Credits photo: shutterstock</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="../js/index.js"></script>
+</body>
+
+</html>
