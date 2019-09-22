@@ -112,6 +112,15 @@ input:focus {
   }
 }
 
+@media (max-width: 550px) {
+  .contact-form {
+    margin: 0 30px;
+  }
+  .contact-quote {
+    margin: 0 30px;
+  }
+}
+
 @media (min-width: 1500px) {
   .contact-form {
     padding-top: 150px;

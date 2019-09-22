@@ -40,10 +40,13 @@
   display: block;
 }
 
-.dropdown-content a:hover {color: $color-grey;}
+.dropdown-content a:hover {
+  color: $color-grey;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .button {
   padding: 5px;
@@ -52,7 +55,7 @@
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 0;
-  margin: 0; 
+  margin: 0;
   & img {
     margin-right: 20px;
   }
@@ -102,13 +105,13 @@
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
- 
+
   & img {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -124,13 +127,13 @@
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
- 
+
   & img {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
   }
 
   // &:hover {
@@ -151,7 +154,10 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
+  .button {
+    display: block;
+  }
   .btn {
     &-quote {
       margin-bottom: 20px;

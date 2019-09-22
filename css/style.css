@@ -257,7 +257,11 @@ h6 {
     margin: 10px 0 70px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 550px) {
+  .button {
+    display: block;
+  }
+
   .btn-quote {
     margin-bottom: 20px;
   }
@@ -373,6 +377,15 @@ input:focus {
 @media (max-width: 768px) {
   .contact-quote {
     margin: 0 50px;
+  }
+}
+@media (max-width: 550px) {
+  .contact-form {
+    margin: 0 30px;
+  }
+
+  .contact-quote {
+    margin: 0 30px;
   }
 }
 @media (min-width: 1500px) {
